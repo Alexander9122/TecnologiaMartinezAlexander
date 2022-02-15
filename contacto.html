@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecno</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo"> <a href="index.html">Tecnologia del Momento</a></h1>
+        <nav> 
+            <ul class="menu">
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="celulares.html">Celulares</a></li>
+                <li><a href="laptops.html">Latpops</a></li>
+                <li><a href="">Componentes</a></li>
+            </ul>        
+        </nav>
+    </header>
+    <main>
+        <div id="Contacto">
+            <fieldset>
+                <legend>Contacto</legend>
+                <form action="enviar.php" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" required>
+                    <br>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" required>
+                    <br>
+                    <label for="tel">Telefono</label>
+                    <input type="number" name="tel">
+                    <br>  
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
+                    <br>       
+                    <label for="comentarios">Comentario</label>
+                    <br>
+                    <textarea name="Comentarios" id="" cols="30" rows="5" 
+                    placeholder="Escribe tu comentarios"></textarea>
+                    <br>
+                    <input type="radio" name="sexo">
+                    <label for="sexo">Hombre</label>
+                    <input type="radio" name="sexo">
+                    <label for="sexo">Mujer</label>
+                    <input type="radio" name="sexo">
+                    <br>
+                    <input type="checkbox" name="interes">
+                    <label for="noticias">Noticias</label>
+                    <input type="checkbox" name="interes">
+                    <label for="celulares">Celulares</label>
+                    <input type="checkbox" name="interes">
+                    <label for="laptops">Laptops</label>
+                    <input type="checkbox" name="interes">
+                    <label for="componentes">Componentes</label>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Restablecer">
+                    <br>
+                    
+                </form>
+            </fieldset>
+        </div>
+        <h4>Nos Ubicamos en Plaza La Cuspide</h4>
+        <div class="ubicacion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.6369687372503!2d-99.2721347848198!3d19.51424859312083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20351835699dd%3A0x686ef2a10dcfd6c6!2sLa%20Cuspide%2C%20Naucalpan%20de%20Ju%C3%A1rez%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1642567263806!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+    <footer>
+        <a class="social" href="https://www.facebook.com/" target="_blank"><img src="assets/facebook.png" alt="facebook"></a>
+        <a class="social" href="https://www.instagram.com/" target="_blank"><img src="assets/instagram.png" alt="instagram"></a>
+        <a class="social" href="https://twitter.com/" target="_blank"><img src="assets/twitter.png" alt="twitter"></a>
+        <a class="social" href="https://www.linkedin.com/" target="_blank"><img src="assets/linkedin.png" alt="linkedin"></a>
+    </footer>
+</body>
+</html>
