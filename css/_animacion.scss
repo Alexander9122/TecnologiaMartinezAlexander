@@ -1,0 +1,40 @@
+@-webkit-keyframes veloz
+{
+	0% 
+	{ 
+		opacity: 0;
+		transform: translateX(-200%) skewX(30deg); 
+	}
+
+	60% 
+	{
+		opacity: 1;
+		transform: translateX(20%) skewX(-30deg);
+	}
+
+	80%
+	{
+		transform: translateX(0%) skewX(15deg);
+	}
+}
+
+@-webkit-keyframes bote{
+    20%, 50%, 80%{
+        -webkit-transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-30px);
+    }
+    65%{
+        -webkit-transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes intermitente{
+    50%{
+        opacity: 1;
+    }
+    25%, 75%{
+        opacity: 0;
+    }
+}
