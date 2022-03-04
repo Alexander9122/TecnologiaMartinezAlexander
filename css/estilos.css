@@ -27,12 +27,14 @@ body header nav {
   font-size: 20px;
 }
 
-body header nav ul li:hover {
-  border-bottom: 3px dotted red;
+body header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-body main {
-  width: 100%;
+body header nav ul li:hover {
+  border-bottom: 3px dotted red;
 }
 
 body main h3 {
@@ -44,6 +46,8 @@ body main h3 {
 }
 
 body main h4 {
+  text-align: center;
+  color: #fff;
   font-size: 20px;
   margin: 20px 20px;
 }
@@ -79,14 +83,10 @@ body footer .social :hover {
   -webkit-animation: 2s bote 1;
 }
 
-body main .Contacto fieldset {
+body main .Contacto fieldset, body main .ubicacion fieldset {
   margin: 20px 20px;
   width: 500px;
   padding: 10px 10px;
-}
-
-body main .ubicacion {
-  margin-left: 20px;
 }
 
 body main .gama .objeto {
